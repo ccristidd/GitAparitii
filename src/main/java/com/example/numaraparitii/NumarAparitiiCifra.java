@@ -13,11 +13,9 @@ import java.util.stream.Collectors;
 @NoArgsConstructor
 @AllArgsConstructor
 public class NumarAparitiiCifra {
-
-    int numarInitial;
+   int numarInitial;
     int numarfinal;
     int cifraCautata;
-
     public String numarAparitiiCalculat(int numarInitial, int numarfinal, int cifraCautata) {
         List<String> numere = new ArrayList<>();
 
@@ -49,7 +47,5 @@ public class NumarAparitiiCifra {
 //        System.out.println(("cifra " + cifraCautata + " apare de " + numarAparitii + " ori"));
 
         return ("cifra " + cifraCautata + " apare de " + numarAparitiiStream + " ori");
-
-
     }
 }
