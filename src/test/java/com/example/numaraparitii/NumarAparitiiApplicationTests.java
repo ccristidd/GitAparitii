@@ -18,7 +18,8 @@ class NumarAparitiiApplicationTests {
 
     @Test
     public void testNumarAparitiiCifra(){
-        assertEquals(numarAparitiiCifra.numarAparitiiCalculat(1,24,4),"cifra 4 apare de 3 ori",
+        assertEquals(numarAparitiiCifra.numarAparitiiCalculat(1,24,4),
+                "cifra 4 apare de 3 ori de la 1 pana la 24",
                 "numarul de aparitii este calculat gresit");
 
     }
