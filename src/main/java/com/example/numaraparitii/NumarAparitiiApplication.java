@@ -17,9 +17,7 @@ public class NumarAparitiiApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(NumarAparitiiApplication.class, args);
-
-       String a = numarAparitiiBean().numarAparitiiCalculat(0,469,6);
+       String a = numarAparitiiBean().numarAparitiiCalculat(0,20,9);
         System.out.println(a);
     }
-
 }

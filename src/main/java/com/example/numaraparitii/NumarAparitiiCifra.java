@@ -44,8 +44,11 @@ public class NumarAparitiiCifra {
                 .filter(i -> Integer.parseInt(String.valueOf(i)) == cifraCautata)
                 .count();
 //                .collect(Collectors.toList());
-        System.out.println("cifra " + cifraCautata + " apare de " + numarAparitiiStream + " ori");
-        return ("cifra " + cifraCautata + " apare de " + numarAparitii + " ori");
+
+//        System.out.println("cifra " + cifraCautata + " apare de " + numarAparitiiStream + " ori");
+//        System.out.println(("cifra " + cifraCautata + " apare de " + numarAparitii + " ori"));
+
+        return ("cifra " + cifraCautata + " apare de " + numarAparitiiStream + " ori");
 
 
     }
